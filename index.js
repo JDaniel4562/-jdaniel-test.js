@@ -4,13 +4,13 @@ class Test {
 	constructor () {
 		this.used = true,
 		this.functions = {
-			this.random(min, max){
+			random(min, max){
 				if(typeof min !== 'number') throw new Error(`[${packageName} Error] No se dió el Minimo`)
 				if(typeof max !== 'number') throw new Error(`[${packageName} Error] No se dió el Maximo`)
 				const res = Math.floor(Math.random() * (max - min)) + min
 				return res
-			}
-			this.randomText(array,length=1){
+			},
+			randomText(array,length=1){
 				if(typeof array !== 'object') throw new Error(`[${packageName} Error] No se ha dado los Textos a elegir en Array`)
 				if(typeof length !== 'number') throw new Error(`[${packageName} Error] No se ha dado el Numero de cuantos textos se darán`)
 				let output;
@@ -28,8 +28,8 @@ class Test {
 					output = w3
 				}
 				return output
-			}
-			this.randomString(length){
+			},
+			randomString(length){
 				if(typeof size !== 'number') throw new Error(`[${packageName} Error] No se dió un numero`)
 				const characters ='ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789abcdefghijklmnopqrstuvwxyz'
 				let result = '';
@@ -38,14 +38,14 @@ class Test {
 				result += characters.charAt(Math.floor(Math.random() * charactersLength));
 			}
 				return result
-			}
-			this.ramUsage(decimals=2,type='MB'){
+			},
+			ramUsage(decimals=2,type='MB'){
 				if(type !== 'MB' || type !== 'GB') throw new Error(`[${packageName} Error] No se dió un Typo valido, solo se es valido MB y GB`)
 				if(typeof decimals !== 'number') throw new Error(`[${packageName} Error] No se dió un numero para las Decimales`)
 				let result = (process.memoryUsage().rss / 1024 / 1024).toFixed(decimals)
 				return result+type
-			}
-			this.cpuUsage(decimals=2){
+			},
+			cpuUsage(decimals=2){
 				if(typeof decimals !== 'number') throw new Error(`[${packageName} Error] No se dió un numero para las Decimales`)
 				var result; 
 				const cpus = require('os').cpus(); 
@@ -55,8 +55,8 @@ class Test {
 				});
 				result = (avgs.reduce((a, b) => a + b) / cpus.length).toFixed(decimals);
 				return result
-			}
-			async this.loadCommands(client,CmdFolder) {
+			},
+			async loadCommands(client,CmdFolder) {
 				if(typeof client !== 'object') throw new Error(`[${packageName} Error] No se dió le cliente de Discord`)
 				if(!client.comandos) throw new Error(`[${packageName} Error] Para poder leer los comandos, en tu index.js escribe: \nclient.comandos = new Discord.Collection();`)
 				if(typeof CmdFolder !== 'string') throw new Error(`[${packageName} Error] No se dió la Carpeta a leer Comandos`)
