@@ -1,0 +1,10 @@
+{
+	"name": "test",
+	"version": "^1.0.0",
+	"description": "Package de testing, este fue sacado de mi utils.js",
+	"main": "index.js",
+	"license": "MIT",
+	"keywords": [],
+	"author": "",
+	"dependencies": {}
+}
