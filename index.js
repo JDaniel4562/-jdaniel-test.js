@@ -2,7 +2,15 @@ const packageName = 'Test'
 
 class Test {
 	constructor () {
-		this.used = true
+		this.used = true,
+		this.functions = {
+			this.random(),
+			this.randomText(),
+			this.randomString(),
+			this.ramUsage(),
+			this.cpuUsage(),
+			this.loadCommands()
+		}
 	}
 	
 	random(min, max){
