@@ -1,10 +1,22 @@
 {
-	"name": "test",
-	"version": "^1.0.0",
-	"description": "Package de testing, este fue sacado de mi utils.js",
-	"main": "index.js",
-	"license": "MIT",
-	"keywords": [],
-	"author": "",
-	"dependencies": {}
+  "name": "jdanieltest.ts",
+  "version": "1.0.0",
+  "description": "Package de testing para npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JDaniel4562/-jdaniel-test.js.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JDaniel4562/-jdaniel-test.js/issues"
+  },
+  "homepage": "https://github.com/JDaniel4562/-jdaniel-test.js#readme",
+  "dependencies": {
+    "spanish.memes": "^1.0.2"
+  }
 }
