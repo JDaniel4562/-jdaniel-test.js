@@ -16,7 +16,5 @@
     "url": "https://github.com/JDaniel4562/-jdaniel-test.js/issues"
   },
   "homepage": "https://github.com/JDaniel4562/-jdaniel-test.js#readme",
-  "dependencies": {
-    "spanish.memes": "^1.0.2"
-  }
+  "dependencies": {}
 }
