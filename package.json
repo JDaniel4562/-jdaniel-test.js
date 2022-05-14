@@ -1,5 +1,5 @@
 {
-  "name": "@jdaniel/utils.js",
+  "name": "@jdaniel-dev/utils.js",
   "version": "1.0.0",
   "description": "Package de testing para npm",
   "main": "index.js",
@@ -16,5 +16,8 @@
     "url": "https://github.com/JDaniel4562/-jdaniel-test.js/issues"
   },
   "homepage": "https://github.com/JDaniel4562/-jdaniel-test.js#readme",
-  "dependencies": {}
+  "dependencies": {
+    "discord.js": "^13.7.0",
+    "spanish.memes": "^1.0.2"
+  }
 }
