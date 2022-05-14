@@ -2,6 +2,23 @@ Testing Package
 --
 Este es simplemente un Package de prueba para NPM, no le veo mucha utilidad, ya que literal, es todo el Utils de [Tohru](https://tohru.ga/)
 
+Instaling Package
+--
+```sh
+npm i @jdaniel/utils.js
+```
+
+Using Package
+--
+```js
+const JDaniel_Util = require('@jdaniel/utils.js')
+const util = new JDaniel_Util()
+/**
+Para Setearlo en el client es solo:
+client.util = new JDaniel_Util()
+**/
+```
+
 Command Handler
 --
 Depende de como lo definiste pero este sería un ejemplo
