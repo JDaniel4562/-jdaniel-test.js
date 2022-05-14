@@ -1,4 +1,4 @@
-const packageName = 'JDaniel@Utils'
+const packageName = 'Utils'
 
 class JDaniel_Util {
 	constructor () {
