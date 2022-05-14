@@ -1,5 +1,5 @@
 {
-  "name": "jdanieltest.ts",
+  "name": "@jdaniel/utils.js",
   "version": "1.0.0",
   "description": "Package de testing para npm",
   "main": "index.js",
