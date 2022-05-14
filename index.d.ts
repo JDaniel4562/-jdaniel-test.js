@@ -28,4 +28,4 @@ export class JDaniel_Util {
     * Load commands in a folder and add a commands property to client class.
     */
     public loadCommands(client: Client, path: string): void;
-}
+} as default;
