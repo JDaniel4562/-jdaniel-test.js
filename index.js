@@ -1,6 +1,6 @@
-const packageName = 'Test'
+const packageName = 'JDaniel@Utils'
 
-class Test {
+class JDaniel_Util {
 	constructor () {
 		this.used = true,
 		this.functions = {
@@ -80,4 +80,4 @@ class Test {
 		}
 	}
 }
-module.exports = Test
+module.exports = JDaniel_Util
