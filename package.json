@@ -1,0 +1,26 @@
+{
+  "name": "@jdaniel-dev/utils.js",
+  "version": "1.3.2",
+  "description": "Package de testing para npm",
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JDaniel4562/-jdaniel-test.js.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JDaniel4562/-jdaniel-test.js/issues"
+  },
+  "homepage": "https://github.com/JDaniel4562/-jdaniel-test.js#readme",
+  "dependencies": {
+    "discord.js": "^13.7.0",
+    "fs": "^0.0.1-security",
+    "shot-on-iphone": "^1.1.0",
+    "spanish.memes": "^1.0.2"
+  }
+}
